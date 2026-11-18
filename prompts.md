@@ -16,5 +16,7 @@
 - Said the expanded formulas were too complex and long. Simplified the Calculations section to equilibrium, standard beam equations, bending stress, and the deflection limit.
 - Asked for feedback on Outputs after simplifying Calculations. Recommended showing reactions, labeled diagrams, and the two check results with their limits; did not change the spec.
 - Clarified that each result should have its own graph. Updated Outputs to specify separate shear, bending-moment, and deflection graphs.
+- Asked for a more detailed Look and feel section, serif font alternatives to Times New Roman, and color suggestions. Recommended a screen-friendly serif font and a high-contrast engineering palette; did not change the spec.
+- Requested a faded BYU logo in the background along with the suggested visual style. Added the font, color palette, and subtle logo watermark to Look and feel in `spec.md`.
 - Approved the proposed simple Calculations wording and asked to apply it. Updated only the Calculations section in `spec.md`; no code or app behavior was built.
 - Asked for suggestions for the Outputs section. Recommended beam/load view, reactions, labeled diagrams, and concise bending/deflection results; did not change the spec.

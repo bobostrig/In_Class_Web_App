@@ -25,7 +25,12 @@ Whether design limits are entered by users or supplied by the app.
 - Pass or fail for bending and deflection
 
 ## Look and feel
-Clean and professional, with an example beam loaded when it opens.
+- Use a clean, professional engineering-notebook style.
+- Use Georgia as the main serif font, with Cambria and Times New Roman as fallbacks. Use a simple sans-serif for graph labels and controls.
+- Use a warm off-white background (`#F6F4EF`), white panels (`#FFFFFF`), charcoal text (`#23272F`), and navy headings (`#23395B`).
+- Distinguish the shear, moment, and deflection graphs with teal (`#2A7886`), blue (`#0072B2`), and burnt orange (`#D55E00`).
+- Show a faint BYU logo as a background watermark without reducing the readability of text or graphs.
+- Open with an example beam loaded.
 
 ## Validation
 20 ft simply supported W12x26 with 1 kip/ft: M = 50.0 kip-ft,
