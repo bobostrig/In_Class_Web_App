@@ -8,3 +8,11 @@
 - Asked for feedback on Inputs. Noted which input definitions are still underspecified and suggested categories to clarify; did not change the spec.
 - Asked for feedback on the remaining spec sections. Reviewed calculations, outputs, look and feel, validation, and out-of-scope coverage; did not change the spec.
 - Asked what changes to make to the other sections. Proposed requirement-focused wording and scope clarifications; did not change the spec.
+- Asked for recommendations for the Calculations section. Suggested clarifying assumptions, material-specific criteria, deflection basis, reported extrema, and checks not performed; did not change the spec.
+- Asked why the suggested steel/lumber and load details matter. Explained they determine calculation inputs and pass/fail criteria, while distinguishing essential scope decisions from implementation-level detail; did not change the spec.
+- Said the spec should not be so complex. Recommended a simpler educational-app scope and a short calculations statement; did not change the spec.
+- Asked for suggestions for a simple calculations version. Recommended limiting checks to basic beam response, bending, and deflection with clear exclusions; did not change the spec.
+- Requested formulas for all supported load cases in Calculations and selected the general case. Added load/reaction, shear, moment, deflection, stress, and deflection-limit equations for multiple point loads and partial/full uniform loads on both support types.
+- Said the expanded formulas were too complex and long. Simplified the Calculations section to equilibrium, standard beam equations, bending stress, and the deflection limit.
+- Approved the proposed simple Calculations wording and asked to apply it. Updated only the Calculations section in `spec.md`; no code or app behavior was built.
+- Asked for suggestions for the Outputs section. Recommended beam/load view, reactions, labeled diagrams, and concise bending/deflection results; did not change the spec.

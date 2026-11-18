@@ -13,10 +13,11 @@ How users select a steel or lumber member, and where its material properties com
 Whether design limits are entered by users or supplied by the app.
 
 ## Calculations
-- Reactions, shear, and moment from statics
-- Deflection
-- Bending stress fb = M/S, compared to the allowable stress
-- Deflection compared to L/360
+- Find support reactions using equilibrium: `ΣFy = 0` and `ΣM = 0`.
+- Use standard beam equations for the selected supports and loads to calculate shear `V(x)`, bending moment `M(x)`, and deflection `v(x)`.
+- Calculate maximum bending stress: `fb,max = |M|max / S`. Compare it with the selected member's allowable bending stress.
+- Compare maximum deflection with `L/360`.
+- Show the shear diagram, but do not check shear strength. Report pass/fail for bending and deflection only.
 
 ## Outputs
 - The beam with its loads, and the three diagrams
