@@ -4,8 +4,7 @@ Project requirements and behavior will be documented here.
 # Beam Designer
 
 ## Purpose
-Shear, moment, and deflection diagrams for a beam, with a check of
-whether the beam is strong and stiff enough.
+This evaluates a single simply supported or cantilever beam under point and uniform loads. It calculates reactions, shear, moment, and deflection, displays the results, and checks bending stress and deflection against specified limits. It is an educational design aid, not a complete structural design or a substitute for professional review.
 
 ## Inputs
 - Simply supported or cantilever, and the span (ft)
