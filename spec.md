@@ -22,6 +22,8 @@ Whether design limits are entered by users or supplied by the app.
 ## Outputs
 - The beam with its loads
 - Separate graphs for shear, bending moment, and deflection, with labeled axes and units
+- Support reaction values
+- The maximum and minimum value on each graph and where each occurs
 - Pass or fail for bending and deflection
 
 ## Look and feel
@@ -33,8 +35,11 @@ Whether design limits are entered by users or supplied by the app.
 - Open with an example beam loaded.
 
 ## Validation
-20 ft simply supported W12x26 with 1 kip/ft: M = 50.0 kip-ft,
-deflection 0.609 in.
+For a 20 ft simply supported W12x26 with a downward 1 kip/ft uniform load over the full span:
+- Reactions: 10 kip at each support
+- Shear: maximum +10 kip just inside the left end and minimum -10 kip just inside the right end
+- Moment: maximum 50.0 kip-ft at midspan and minimum 0 at the supports
+- Deflection: maximum 0.609 in at midspan and minimum 0 at the supports
 
 ## Out of scope
 Continuous beams and buckling.

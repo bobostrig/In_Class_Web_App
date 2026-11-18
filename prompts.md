@@ -18,5 +18,7 @@
 - Clarified that each result should have its own graph. Updated Outputs to specify separate shear, bending-moment, and deflection graphs.
 - Asked for a more detailed Look and feel section, serif font alternatives to Times New Roman, and color suggestions. Recommended a screen-friendly serif font and a high-contrast engineering palette; did not change the spec.
 - Requested a faded BYU logo in the background along with the suggested visual style. Added the font, color palette, and subtle logo watermark to Look and feel in `spec.md`.
+- Asked for feedback on Validation. Assessed the current benchmark as a useful start and suggested clarifying its load extent, maxima, and reference assumptions; did not change the spec.
+- Requested support reactions and the locations of maxima and minima. Added these to Outputs and expanded the validation example with expected reactions and extrema.
 - Approved the proposed simple Calculations wording and asked to apply it. Updated only the Calculations section in `spec.md`; no code or app behavior was built.
 - Asked for suggestions for the Outputs section. Recommended beam/load view, reactions, labeled diagrams, and concise bending/deflection results; did not change the spec.
