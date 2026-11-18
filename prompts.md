@@ -14,5 +14,7 @@
 - Asked for suggestions for a simple calculations version. Recommended limiting checks to basic beam response, bending, and deflection with clear exclusions; did not change the spec.
 - Requested formulas for all supported load cases in Calculations and selected the general case. Added load/reaction, shear, moment, deflection, stress, and deflection-limit equations for multiple point loads and partial/full uniform loads on both support types.
 - Said the expanded formulas were too complex and long. Simplified the Calculations section to equilibrium, standard beam equations, bending stress, and the deflection limit.
+- Asked for feedback on Outputs after simplifying Calculations. Recommended showing reactions, labeled diagrams, and the two check results with their limits; did not change the spec.
+- Clarified that each result should have its own graph. Updated Outputs to specify separate shear, bending-moment, and deflection graphs.
 - Approved the proposed simple Calculations wording and asked to apply it. Updated only the Calculations section in `spec.md`; no code or app behavior was built.
 - Asked for suggestions for the Outputs section. Recommended beam/load view, reactions, labeled diagrams, and concise bending/deflection results; did not change the spec.

@@ -20,7 +20,8 @@ Whether design limits are entered by users or supplied by the app.
 - Show the shear diagram, but do not check shear strength. Report pass/fail for bending and deflection only.
 
 ## Outputs
-- The beam with its loads, and the three diagrams
+- The beam with its loads
+- Separate graphs for shear, bending moment, and deflection, with labeled axes and units
 - Pass or fail for bending and deflection
 
 ## Look and feel
