@@ -42,4 +42,4 @@ For a 20 ft simply supported W12x26 with a downward 1 kip/ft uniform load over t
 - Deflection: maximum 0.609 in at midspan and minimum 0 at the supports
 
 ## Out of scope
-Continuous beams and buckling.
+Shear strength, bearing, connection design, load combinations, continuous beams, and buckling.

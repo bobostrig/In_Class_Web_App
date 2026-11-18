@@ -20,5 +20,7 @@
 - Requested a faded BYU logo in the background along with the suggested visual style. Added the font, color palette, and subtle logo watermark to Look and feel in `spec.md`.
 - Asked for feedback on Validation. Assessed the current benchmark as a useful start and suggested clarifying its load extent, maxima, and reference assumptions; did not change the spec.
 - Requested support reactions and the locations of maxima and minima. Added these to Outputs and expanded the validation example with expected reactions and extrema.
+- Asked whether to expand Out of scope. Recommended explicitly excluding shear strength and other unchecked design checks; did not change the spec.
+- Asked to include the suggested out-of-scope items. Added shear strength, bearing, connection design, and load combinations while retaining continuous beams and buckling.
 - Approved the proposed simple Calculations wording and asked to apply it. Updated only the Calculations section in `spec.md`; no code or app behavior was built.
 - Asked for suggestions for the Outputs section. Recommended beam/load view, reactions, labeled diagrams, and concise bending/deflection results; did not change the spec.
