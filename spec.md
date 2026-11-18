@@ -43,3 +43,10 @@ For a 20 ft simply supported W12x26 with a downward 1 kip/ft uniform load over t
 
 ## Out of scope
 Shear strength, bearing, connection design, load combinations, continuous beams, and buckling.
+
+## Build stages
+1. **Static mockup:** Build the single-file page layout with all inputs, example values, beam/load illustration, output cards, and labeled plot placeholders. Do not implement calculations.
+2. **Input behavior:** Make support, member, material, load, unit, and design-limit controls usable. Support adding and removing point and uniform loads, and show each load on the beam illustration.
+3. **Beam response:** Calculate support reactions, shear, moment, and deflection for the supported beam types and loads. Update the beam illustration and three plots when inputs change.
+4. **Design checks:** Calculate maximum bending stress and compare it with the selected allowable value. Compare maximum deflection with the selected limit and show pass/fail results; do not add a shear-strength check.
+5. **Validation and refinement:** Check the example against the Validation values, address edge cases for supported inputs, and refine labels, units, layout, and mobile behavior.
