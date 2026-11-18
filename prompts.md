@@ -5,3 +5,6 @@
 - Asked why the folders contain `.gitkeep` files. Explained that Git does not track empty directories, so these placeholders make the folders persist in the repository. No project structure changes were made.
 - Asked for a high-level summary and whole-spec review. Read `spec.md`; no code or app behavior was built and the spec itself was not changed.
 - Asked for suggestions on the Purpose section. Provided draft wording and scope guidance; did not change the spec.
+- Asked for feedback on Inputs. Noted which input definitions are still underspecified and suggested categories to clarify; did not change the spec.
+- Asked for feedback on the remaining spec sections. Reviewed calculations, outputs, look and feel, validation, and out-of-scope coverage; did not change the spec.
+- Asked what changes to make to the other sections. Proposed requirement-focused wording and scope clarifications; did not change the spec.
